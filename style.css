@@ -35,6 +35,7 @@ body{
 }
 .slider img{
     width: 100%;
+    height: width;
     display: none;
 }
 .slider button{
