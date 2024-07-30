@@ -49,6 +49,46 @@
 
             <div class="post">
                 <br><br><hr><br>
+                <h3>Hur fungerar en zip-fil?</h3>
+                <h6>2024-07-30</h6>
+                <p> 
+                    En .zip-fil är ju en komprimerad version av en mängd data. Sen finns 
+                    det också många olika komprimeringsmetoder men .zip är vanligast. Det jag 
+                    undrade förut var: hur kan den ens bli mindre, kod är väl ändå bara kod?
+                    <br><br> 
+                    Så som jag förstått det är det såhär: Att göra en zip-fil är att 
+                    analysera den här mängden data och leta efter stycken av repetition. 
+                    Så algoritmen som kodar om datan till en zip-fil går stegvis igenom 
+                    och tar bort dessa repeterande mönster. LÅT MIG EXEMPLIFIERA.
+
+                    Här är alltså ett utdrag ur MLK Jr.'s mest berömda tal från 1963:
+                </p>
+                <iframe src="texts/RÅ.txt"></iframe>
+                <p> 
+                    Nu försöker jag KOMPRIMERA denna genom att leta upprepande mönster 
+                    som t.ex "I a have a dream that ". Jag måste också skriva en kod för
+                    hur man ska avkoda denna komprimering (förslagsvis i början av filen):
+                </p>
+                <iframe src="texts/KOMPRIMERAD.txt"></iframe>
+                <p>
+                    Man måste använda samma typ av algoritm, fast omvänd såklart, för att
+                    kunna få tillbaka orginalet. Detta betyder också att om din fil inte 
+                    blev så mycket mindre så fanns det antagligen inte så mycket repetition. 
+                    Oftast finns det mycket repetition, även i bilder! Om din data är 128 
+                    olika ASCII-karaktärer så finns nog inget att komprimera för då finns 
+                    inget mönster som är större än en byte! <br> <br>
+
+                    .zip format eller dess kusiner är lite överdrivet bra när man ska skicka
+                    data över nätverk! Man offrar tekniskt sett arbetskraft eftersom man
+                    behöver dekoda och avkoda MEN det är billigare med lokal arbetskraft än
+                    att hålla ett grövre nätverk operationellt. (Grövre som i... det kan 
+                    hantera mer trafik)
+                </p>
+
+            </div>
+
+            <div class="post">
+                <br><br><hr><br>
                 <h3>Shoutout till Erik Noradel</h3>
                 <h6>2024-07-27</h6>
                 <p> 
@@ -93,10 +133,6 @@
         <br><br><hr><br>
 
     </div>
-
-    <?php
-    echo "My first PHP script!";
-    ?> 
 
 </body>
 
