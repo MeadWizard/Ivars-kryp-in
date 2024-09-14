@@ -35,9 +35,10 @@
 
         <h3>Välkommen!</h3>
         <p>
-            Nämen! Jag såg dig inte där när du klev in!
-            Det här är ju då min <b><i><big style="color: red;">asfeta</big></i></b> 
-            hemsida, klicka runt och känn dig hemma.
+            Nämen! Jag såg dig inte där när du klev in! 
+            Det här är ju då min 
+            <b><i><big style="color: red;">asfeta</big></i></b> 
+            hemsida. Klicka runt och känn dig hemma.
         </p>
         <a href="minecraft.html">
             <button> Minecraft-Servern </button>
@@ -45,10 +46,13 @@
         <a href="citat.html">
             <button> Citat </button>
         </a> 
+        <button onclick="newestClicked()"> Nyast först </button>
+        <button onclick="oldestClicked()"> Äldst först </button>
 
         <div id="posts">
 
-            <div class="post">
+            <div id=2>
+                <div class="post"> 
                 <br><br><hr><br>
                 <h3>Hur fungerar en zip-fil?</h3>
                 <h6>2024-07-30</h6>
@@ -86,9 +90,11 @@
                     hantera mer trafik)
                 </p>
 
+                </div>
             </div>
 
-            <div class="post">
+            <div id=1>
+                <div class="post"> 
                 <br><br><hr><br>
                 <h3>Ska man göra blogposts?</h3>
                 <h6>2024-07-27</h6>
@@ -99,9 +105,11 @@
                     är min nya blogfilosofi och jag tror verkligen att det kan vara bra för 
                     mer än bara mig också!
                 </p>
+                </div> 
             </div>
 
-            <div class="post">
+            <div id=0>
+                <div class="post"> 
                 <br><br><hr><br>
                 <h3>Hett tips:</h3>
                 <h6>2024-07-25</h6>
@@ -114,6 +122,7 @@
                     lite små snuttar av <a href="https://www.youtube.com/watch?v=lfmg-EJ8gm4">"JavaScript Full 
                     Course for free 🌐 (2024)"</a> också! <br>
                 </p>
+                </div>
             </div>
 
         </div>
@@ -121,6 +130,8 @@
         <br><br><hr><br>
 
     </div>
+
+    <script src="index.js"> </script>
 
 </body>
 
