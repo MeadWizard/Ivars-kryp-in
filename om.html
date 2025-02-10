@@ -15,6 +15,9 @@
 <body>
 
     <div id="top-bar">
+    
+    
+    
         <h1> Ivars kryp-in... </h1>
         <a href="index.html">
             <button> Hem </button>
@@ -25,22 +28,39 @@
         <a href="kontakt.html">
             <button> Kontakt </button>
         </a>
+
+
+
         <br>
     </div>
-
+    
     <br>
-
+    
     <div id="page">
-        
+
         <hr><br>
 
-        <h3>Vem är jag?</h3>
-        <p>
-            Hej! Jag är Ivar såklart. Min tanke med den här hemsidan är mest att kunna skriva lite om saker 
-            jag hittat och tycker är intressant och att öva lite på webbdesign.
-        </p>
 
-        <img src="" alt="">
+
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" 
+        target="_blank" 
+        class="text-primary hover:opacity-100 opacity-0 absolute top-[10%] right-[10%]">
+            Klicka här för tentatips
+        </a>
+
+        <br> <br>
+
+        <!-- The form -->
+        <form class="searchbox" action="om.html">
+            <input type="text" placeholder="Search.." text="" name="search">
+            <button type="submit" onclick="sök()"><i class="fa fa-search"> send </i></button>
+        </form>
+
+        <div class="resultat">
+            <p id="testtest">
+
+            </p>
+        </div>
 
         <input class="flex h-10 rounded-md border border-input bg-background 
         px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent 
@@ -51,7 +71,6 @@
 
         <br><hr>
     </div>
-
+    <script src="citat.js"> </script>
 </body>
-
 </html>

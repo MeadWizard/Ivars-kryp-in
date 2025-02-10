@@ -1,0 +1,7 @@
+body{
+    background-image: url(resources/drakborgen.jpg);
+    background-size:contain;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+}
