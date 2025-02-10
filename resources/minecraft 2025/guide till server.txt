@@ -1,0 +1,17 @@
+Whaddup fellas, här är en guide till att ladda ner rätt grejjor:
+
+Steg 1:
+Ladda ner CurseForge, om man är cringe tar man Mac-versionen.
+https://www.curseforge.com/download/app
+
+Steg 2:
+Ladda ner Zip-filen under denna episka guide. (OBS om du använder mac kanske din dator 
+automatiskt unzippar, se till så att din dator inte gör det via inställningarna.)
+
+Steg 3:
+Öppna CurseForge, Lägg till Minecraft som ett spel. 
+Välj Create Custom Profile, därefter "or IMPORT a previously created profile". 
+Välj Zip-filen!
+
+Steg 4:
+Starta minecraft via CurseForge-Launchern. Servern bör vara redo att koppla till! :)
