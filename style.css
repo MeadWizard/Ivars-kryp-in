@@ -115,4 +115,9 @@ h6{
 }
 img{
     width: 55%;
+
+    @media (hover: none) {    
+        margin-left: 9%;
+        width: 80%;
+    }
 }
