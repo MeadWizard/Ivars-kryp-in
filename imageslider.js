@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", initializeSlider)
 function initializeSlider(){
     if(slides.length > 0){
         slides[slideindex].classList.add("displaySlide")
-        intervalId = setInterval(nextSlide, 2000);
+        intervalId = setInterval(nextSlide, 3000);
         //console.log(intervalId);
     }
 }
@@ -33,7 +33,7 @@ function prevSlide(){
 }
 
 function nextSlide(){
-    clearInterval(intervalId);
+    //clearInterval(intervalId);
     slideindex++;
     if(slideindex>slides.length-1){
         slideindex = 0;

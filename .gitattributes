@@ -1,0 +1,1 @@
+resources/minecraft[[:space:]]2025/Ivars[[:space:]]Modpack.zip filter=lfs diff=lfs merge=lfs -text
